@@ -4,7 +4,7 @@
  *   Author:         ksaurav
  *   Created Date:   26-03-2021
  *   Description:    Test class for BulkMessageToCustomers
- *   Jira number:    Test class
+ *   Jira number:    Test class2
  *      
  **************************************************************************************************************************
  * See the Apex Language Reference for more information about Testing and Code Coverage.
