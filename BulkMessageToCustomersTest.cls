@@ -20,12 +20,11 @@ public class BulkMessageToCustomersTest {
         Test.setMock(HttpCalloutMock.class, new RestServicesParelyCtrlMock()); 
         RestServicesParelyCtrl.MessageSevices('12345678','test message','26');
         BulkMessageToCustomers.sendMessageToCustomers(String1,message1);
-        //BulkMessageToCustomers.changeOwnerTosalesforce(String1);
         test.stopTest();
         
     }
     static testMethod void myUnitTestSecond(){
-        String String1= '123,234';
+        String String1= '124444,234';
         test.startTest();
         BulkMessageToCustomers.changeOwnerTosalesforce(String1);
         test.stopTest();
